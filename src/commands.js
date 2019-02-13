@@ -311,7 +311,7 @@ module.exports = {
             type: 'string',
           },
         },
-        required: ['policyg'],
+        required: ['policy'],
       },
     },
   },

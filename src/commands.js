@@ -303,6 +303,17 @@ module.exports = {
   addPolicy: {
     method: 'PUT',
     path: '/sys/policy/{{name}}',
+    schema: {
+      req: {
+        type: 'object',
+        properties: {
+          policy: {
+            type: 'string',
+          },
+        },
+        required: ['policyg'],
+      },
+    },
   },
   getPolicy: {
     method: 'GET',

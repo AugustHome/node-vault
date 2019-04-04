@@ -197,6 +197,11 @@
 `POST /auth/token/lookup`
 
 
+## vault.tokenLookupSelf
+
+`POST /auth/token/lookup-self`
+
+
 ## vault.tokenLookupAccessor
 
 `POST /auth/token/lookup-accessor`
